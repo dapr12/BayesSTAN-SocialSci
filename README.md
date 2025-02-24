@@ -119,8 +119,43 @@ stan_model <- stan_model(model_code = model_code)
 
 - **STAN Documentation**: [mc-stan.org](https://mc-stan.org/users/documentation/)
 - **RStan Installation Guide**: [GitHub RStan Wiki](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)
-- **Bayesian Data Analysis (Gelman et al.)**: A foundational text for Bayesian modeling
 - **INLA for Bayesian Analysis**: [INLA Installation](https://www.r-inla.org/download-install)
+
+
+---
+
+## References  
+
+1. **Gelman, A., Carlin, J. B., Stern, H. S., Dunson, D. B., Vehtari, A., & Rubin, D. B. (2013).**  
+   *Bayesian Data Analysis* (3rd ed.). CRC Press.  
+   [Available here](https://sites.stat.columbia.edu/gelman/book/BDA3.pdf)  
+
+2. **Vehtari, A., Gelman, A., & Gabry, J. (2017).**   
+   *Practical Bayesian Model Evaluation Using Leave-One-Out Cross-Validation and WAIC.*   
+   Statistics and Computing, 27(5), 1413–1432.  
+   [DOI: 10.1007/s11222-016-9696-4](https://doi.org/10.1007/s11222-016-9696-4)  
+
+3. **Stan Development Team (2024).**   
+   *Stan: A Probabilistic Programming Language.*   
+   [https://mc-stan.org](https://mc-stan.org)  
+
+4. **Stan Development Team (2024).**   
+   *RStan: The R Interface to Stan.*   
+   [GitHub Repository](https://github.com/stan-dev/rstan) | [Installation Guide](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)  
+
+5. **McElreath, R. (2020).**  
+   *Statistical Rethinking: A Bayesian Course with Examples in R and STAN* (2nd ed.). CRC Press.  
+   [Book Website](https://xcelab.net/rm/statistical-rethinking/)  
+
+6. **Brooks, S., Gelman, A., Jones, G., & Meng, X.-L. (Eds.). (2011).**  
+   *Handbook of Markov Chain Monte Carlo.* CRC Press.  
+   [Book on CRC Press](https://www.crcpress.com/Handbook-of-Markov-Chain-Monte-Carlo/Brooks-Gelman-Jones-Meng/p/book/9781420079425)  
+
+7. **Carpenter, B., Gelman, A., Hoffman, M. D., Lee, D., Goodrich, B., Betancourt, M., Brubaker, M. A., Guo, J., Li, P., & Riddell, A. (2017).**   
+   *Stan: A Probabilistic Programming Language.*   
+   Journal of Statistical Software, 76(1), 1–32.  
+   [DOI: 10.18637/jss.v076.i01](https://doi.org/10.18637/jss.v076.i01)  
+
 
 ---
 
