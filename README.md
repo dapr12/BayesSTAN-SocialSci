@@ -1,5 +1,3 @@
-
-```markdown
 # Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences
 
 ## Overview
@@ -130,4 +128,3 @@ stan_model <- stan_model(model_code = model_code)
 This repository is released under the [MIT License](LICENSE).
 
 ---
-```
