@@ -1,6 +1,6 @@
 # Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences
 
-Diego Perez Ruiz
+by Dr. Diego Perez Ruiz - 
 <diego.perezruiz@manchester.ac.uk>
 
 *May, 2025*
@@ -10,7 +10,6 @@ Diego Perez Ruiz
 Bayesian methods for inference and prediction have gained significant traction in the social sciences, transitioning from a niche methodology with steep computational barriers to a widely accessible approach supported by user-friendly tools. Today, researchers can implement sophisticated Bayesian models using standard statistical software and generic computing resources. Yet, for many newcomers, the entry into Bayesian analysis remains challenging—raising questions about when and why to use Bayesian methods, how to interpret results, and what software to adopt.
 
 This workshop,  **"Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences"**, is designed to guide participants through these initial hurdles. It introduces the key concepts of Bayesian inference in contrast to classical (frequentist) approaches, outlines the logic and structure of the Bayesian workflow, and provides hands-on experience with the R package brms, a high-level interface to Stan, a powerful probabilistic programming language. By working through practical examples and real-world applications, participants will learn how to specify, estimate, and interpret Bayesian models using accessible tools and modern algorithms—all within the R environment.
-
 
 
 ## Overview
@@ -80,6 +79,7 @@ To begin, download the materials from this repository:
 
 ## Course Outline
 
+    
 1. **Introduction to Bayesian Modeling**
    - Why use Bayesian methods?
    - Bayesian inference principles
@@ -96,6 +96,17 @@ To begin, download the materials from this repository:
    - Hierarchical modeling
    - Model evaluation and diagnostics
 
+## Schedule
+
+1 Day - 
+09:30 – 10:00 Introduction and Session Aims
+10:00 – 11:30 Theoretical – Bayes
+11:30 – 11:50 Break
+11:50 – 12:10 Theoretical – Bayes Part 2
+12:10 – 12:30 Summary of Morning Session
+12:30 – 13:30 Lunch Break
+13:30 – 16:15 Practical
+16:15 – 16:30 Review and Closing
 ---
 
 ## Running Your First STAN Model
