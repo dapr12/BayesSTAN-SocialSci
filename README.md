@@ -97,16 +97,18 @@ To begin, download the materials from this repository:
    - Model evaluation and diagnostics
 
 ## Schedule
+ 
+| Time           | Session                          |
+|----------------|----------------------------------|
+| 09:30 – 10:00  | Introduction and Session Aims    |
+| 10:00 – 11:30  | Theoretical – Bayes              |
+| 11:30 – 11:50  | Break                            |
+| 11:50 – 12:10  | Theoretical – Bayes Part 2       |
+| 12:10 – 12:30  | Summary of Morning Session       |
+| 12:30 – 13:30  | Lunch Break                      |
+| 13:30 – 16:15  | Practical                        |
+| 16:15 – 16:30  | Review and Closing               |
 
-1 Day - 
-09:30 – 10:00 Introduction and Session Aims
-10:00 – 11:30 Theoretical – Bayes
-11:30 – 11:50 Break
-11:50 – 12:10 Theoretical – Bayes Part 2
-12:10 – 12:30 Summary of Morning Session
-12:30 – 13:30 Lunch Break
-13:30 – 16:15 Practical
-16:15 – 16:30 Review and Closing
 ---
 
 ## Running Your First STAN Model
