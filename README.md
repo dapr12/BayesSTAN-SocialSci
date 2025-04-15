@@ -1,6 +1,5 @@
 # Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences
 
-================
 Diego Perez Ruiz
 <diego.perezruiz@manchester.ac.uk>
 
