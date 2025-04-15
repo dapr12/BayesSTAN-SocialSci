@@ -1,5 +1,19 @@
 # Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences
 
+================
+Diego Perez Ruiz
+<diego.perezruiz@manchester.ac.uk>
+
+*May, 2025*
+
+## Abstract
+
+Bayesian methods for inference and prediction have gained significant traction in the social sciences, transitioning from a niche methodology with steep computational barriers to a widely accessible approach supported by user-friendly tools. Today, researchers can implement sophisticated Bayesian models using standard statistical software and generic computing resources. Yet, for many newcomers, the entry into Bayesian analysis remains challenging—raising questions about when and why to use Bayesian methods, how to interpret results, and what software to adopt.
+
+This workshop,  **"Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences"**, is designed to guide participants through these initial hurdles. It introduces the key concepts of Bayesian inference in contrast to classical (frequentist) approaches, outlines the logic and structure of the Bayesian workflow, and provides hands-on experience with the R package brms, a high-level interface to Stan, a powerful probabilistic programming language. By working through practical examples and real-world applications, participants will learn how to specify, estimate, and interpret Bayesian models using accessible tools and modern algorithms—all within the R environment.
+
+
+
 ## Overview
 This repository contains materials for the **"Bayesian Modeling and Inference: An Introduction to STAN for the Social Sciences"** workshop. It includes setup instructions, example code, and resources to help social science researchers implement Bayesian models using STAN in R.
 
@@ -120,6 +134,12 @@ stan_model <- stan_model(model_code = model_code)
 - **STAN Documentation**: [mc-stan.org](https://mc-stan.org/users/documentation/)
 - **RStan Installation Guide**: [GitHub RStan Wiki](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)
 - **INLA for Bayesian Analysis**: [INLA Installation](https://www.r-inla.org/download-install)
+
+---
+
+## About the Instructor
+
+Dr Diego Perez Ruiz is a Lecturer in Quantitative Social Science at the University of Manchester, where he teaches statistical methods and computational tools for the social sciences. His research bridges methodological innovation and substantive inquiry, with interests in Bayesian modeling, survey methodology, and data integration. Diego has extensive experience applying advanced statistical techniques to social science questions, particularly in the areas of public opinion, policy evaluation, and demographic analysis. As an educator, he is committed to making complex quantitative methods accessible to researchers through clear, hands-on instruction and reproducible workflows using R and Stan.
 
 
 ---
