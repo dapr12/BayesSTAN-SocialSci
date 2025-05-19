@@ -3,8 +3,9 @@
 Welcome to the practical tutorials for the Bayesian Modeling course!
 
 This folder contains the necessary files and instructions to work through hands-on examples of Bayesian Linear Regression and Bayesian Logistic Regression using R and Stan.
-
 ## Folder Contents:
+
+### Bayesian Linear Regression 
 
 *   **`bayesian_linear_regression_tutorial.pdf`**:
     *   A PDF document containing the full step-by-step tutorial for Bayesian Linear Regression. This includes all explanations, instructions, discussion points, and exploration questions.
@@ -13,6 +14,8 @@ This folder contains the necessary files and instructions to work through hands-
 *   **`linear_regression.stan`**:
     *   The Stan model file required for the Bayesian Linear Regression tutorial. This file defines the model structure and is called by the `bayesian_linear_regression.R` script.
 
+### Bayesian Logistic Regression 
+
 *   **`bayesian_logistic_regression_tutorial.pdf`**:
     *   A PDF document containing the full step-by-step tutorial for Bayesian Logistic Regression, including all explanations, instructions, and exploration questions.
 *   **`bayesian_logistic_regression.R`**:
@@ -20,6 +23,18 @@ This folder contains the necessary files and instructions to work through hands-
 *   **`logistic_regression.stan`**:
     *   The Stan model file required for the Bayesian Logistic Regression tutorial, called by the `bayesian_logistic_regression.R` script.
 
+### Bayesian Model Comparison
+
+*   **`bayesian_model_comparison_tutorial.pdf`**:
+    *   A PDF document containing the full step-by-step tutorial for Bayesian Model Comparison using PSIS-LOO and WAIC. This includes explanations, R code guidance, interpretation, and exploration questions.
+*   **`bayesian_model_comparison.R`**:
+    *   An R script containing all the R code presented in the `bayesian_model_comparison_tutorial.pdf`. This script is for executing the model fitting and comparison steps while following the PDF.
+*   **`linear_model_x1.stan`**:
+    *   A Stan model file used in the Model Comparison tutorial (predicts `y` from `x1` only).
+*   **`linear_model_x1_x2.stan`**:
+    *   A Stan model file used in the Model Comparison tutorial (predicts `y` from `x1` and `x2`).
+    *   *(Optionally, if you include the "Overfitting Demonstration" exploration question with a new Stan file, you would list `linear_model_complex.stan` here as well).*
+ 
 ## Prerequisites:
 
 Before you begin, please ensure you have the following installed:
