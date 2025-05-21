@@ -73,15 +73,6 @@ y_rep_matrix <- posterior_draws$y_rep
 
 color_scheme_set("brightblue")
 
-#ppc_dens_overlay(y = sim_data$y, yrep = y_rep_matrix[1:50, ]) +
-#  ggtitle("Posterior Predictive Check: Density Overlay")
-
-#ppc_stat(y = sim_data$y, yrep = y_rep_matrix, stat = "mean") +
-#  ggtitle("PPC for Mean of y")
-
-#ppc_stat(y = sim_data$y, yrep = y_rep_matrix, stat = "sd") +
-#  ggtitle("PPC for SD of y")
-
 # Posterior regression lines
 alpha_samples <- posterior_draws$alpha
 beta_samples <- posterior_draws$beta
