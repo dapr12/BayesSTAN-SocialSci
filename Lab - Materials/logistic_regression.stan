@@ -1,8 +1,7 @@
-// logistic_regression.stan
 data {
-  int<lower=0> N;                 // Number of observations
-  vector[N] x;                    // Predictor vector
-  array[N] int<lower=0,upper=1> y; // Binary outcome vector (0 or 1)
+  int<lower=0> N;
+  array[N] int<lower=0, upper=1> y;
+  array[N] real x;
 }
 parameters {
   real alpha;
@@ -11,5 +10,13 @@ parameters {
 model {
   alpha ~ normal(0, 10);
   beta ~ normal(0, 10);
-  y ~ bernoulli_logit(alpha + beta * x);
+  for (n in 1:N) {
+    y[n] ~ bernoulli_logit(alpha + beta * x[n]);
+  }
+}
+generated quantities {
+  array[N] real log_lik;
+  for (n in 1:N) {
+    log_lik[n] = bernoulli_logit_lpmf(y[n] | alpha + beta * x[n]);
+  }
 }
